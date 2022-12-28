@@ -56,7 +56,7 @@ A curriculum designer that allows the user to organize and keep track of learnin
 * Provide credentials and get a bearer token.
 * Send the POST request to url/login 
 * Required request body in form-data format:
-![users-post-res](https://user-images.githubusercontent.com/59581465/209741271-ecf74e61-5a7e-441c-9070-30fb675947b6.png)
+![auth-post-req](https://user-images.githubusercontent.com/59581465/209743332-862db193-c456-48ec-a6b4-f0e2e5a111ba.png)
 * Responses:
 ![auth-post-res](https://user-images.githubusercontent.com/59581465/209741333-3507e8d1-539a-4ee9-b717-8aaefec6476e.png)
 
@@ -65,9 +65,9 @@ A curriculum designer that allows the user to organize and keep track of learnin
 ![1](https://user-images.githubusercontent.com/59581465/209742645-1b7c6115-f4f9-4840-9fd3-24833e58e724.png)
 2. Login. Then copy the bearer token
 ![2](https://user-images.githubusercontent.com/59581465/209742593-25518324-a200-46e0-afe2-ff3abd1e8950.png)
-3. Create a post. Copy the bearer token under the authorization tab.
+3. Create a post. Paste the bearer token under the authorization tab.
 ![3](https://user-images.githubusercontent.com/59581465/209741991-bc1f73cb-c28d-430a-83e5-99233f0c6932.png)
-4. See all posts. Copy the bearer token under the authorization tab.
+4. See all posts. Paste the bearer token under the authorization tab.
 ![4](https://user-images.githubusercontent.com/59581465/209742052-82e19aef-74d6-4d68-9eaf-a08f64c48463.png)
 Your curriculim will be output to the command line, like this:
 ![5](https://user-images.githubusercontent.com/59581465/209742371-4ba46267-9b99-4ad4-b62c-be37bcbf428e.png)

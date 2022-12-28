@@ -6,9 +6,12 @@ class Settings(BaseSettings):
     database_password: str 
     database_username: str 
     database_name: str 
+    #any string of random characters
     secret_key: str 
+    #recommended: HS256
     algorithm: str
-    access_token_exp: int 
+    #access token expiration time in minutes
+    access_token_exp: int
 
     class Config:
         env_file = ".env"  #running alembic from fastapi dir needs "app/.env"

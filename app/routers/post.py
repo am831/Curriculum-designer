@@ -35,6 +35,7 @@ search: Optional[str] = ""):
         item.effort, item.comments, item.link])
         tables[str(item.year)].add_row([" ", " ", " ", " ", " "])
     years.sort()
+    print("\n")
     for item in years:
         print("Year", str(item))
         print(tables[str(item)], "\n")
